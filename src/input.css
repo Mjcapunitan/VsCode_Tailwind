@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+.container {
+    @apply mx-auto max-w-[75rem] w-full;
+}
+
+@layer components{
+    .header .header__nav {
+        @apply absolute sm:max-h-[0rem] overflow-hidden left-0 top-[3.5rem] w-full bg-[#2C2C32] duration-[.5s] ease-in-out 
+        lg:static lg:w-full lg:h-auto lg:flex lg:z-0 lg:justify-end
+        }
+        
+        .header .header__nav.open {
+        @apply max-h-[28.5rem] sm:overflow-y-scroll transition-all
+        }
+}

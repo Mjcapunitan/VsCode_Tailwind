@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <header class="header bg-[#2c2c32] p-[1rem] fixed w-full">
+        <div class="container">
+            <div class="header__wrapper mx-4 flex justify-between items-center bg-[#2c2c32]">
+                <div class="branding flex gap-2 items-center z-10">
+                    <img src="/images/logo.png" class="h-[1.8rem] w-[1.8rem]" alt="">
+                    <h3 class="text-white">Visual Studio Code</h3>
+                </div>
+                <div class="header__nav"> 
+                    <ul class="flex flex-col gap-4 my-2 mx-2">
+                        <li><a href="#" class="text-white text-[1rem]">Docs</a></li>
+                        <li><a href="#" class="text-white text-[1rem]">Updates</a></li>
+                        <li><a href="#" class="text-white text-[1rem]">Blog</a></li>
+                        <li><a href="#" class="text-white text-[1rem]">API</a></li>
+                        <li><a href="#" class="text-white text-[1rem]">Extensions</a></li>
+                        <li><a href="#" class="text-white text-[1rem]">FAQ</a></li>
+                        <li><a href="#" class="text-white text-[1rem]">Learn</a></li>
+                    </ul>
+                </div>
+
+                <div class="toggle__menu flex flex-col gap-1 lg:hidden bg-transparent">
+                    <span class = "block w-8 h-1 bg-white duration-500 ease-in-out"></span>
+                    <span class = "block w-8 h-1 bg-white duration-500 ease-in-out"></span>
+                    <span class = "block w-8 h-1 bg-white duration-500 ease-in-out"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner bg-[#25252b]">
+        <div class="container">
+            <div class="banner__wrapper pt-[4.25rem] pb-2 flex flex-wrap items-center justify-center align-middle">
+                <p class="text-white"><span class="underline text-[#0066b8]">Version 1.80</span> is now available! Read about the new features and fixes from June.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__intro">
+                    <h1>Code editing. Redefined</h1>
+                </div>
+
+                <p>Free. Built on open source. Runs everywhere.</p>
+
+                <div class="download_button">
+                    <a href="#">Download for Windows <small>Stable Build</small></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
