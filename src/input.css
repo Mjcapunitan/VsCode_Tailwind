@@ -7,6 +7,18 @@
     @apply mx-auto max-w-[90rem] w-full;
 }
 
+.platform::before{
+    content:"";
+    position:absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #25252b;
+    top:-8px;
+    right: 8px;
+}
+
 @layer components{
     .header .header__nav {
         @apply absolute max-h-[0rem] overflow-hidden left-0 top-[2.8rem] w-full bg-[#2C2C32] duration-[.8s] ease-in-out 
@@ -14,6 +26,6 @@
         }
         
         .header .header__nav.open {
-        @apply max-h-[18.5rem] overflow-y-scroll transition-all duration-[.8s]
+        @apply max-h-[18.5rem] overflow-y-scroll transition-all duration-[.8s] lg:overflow-y-hidden
         }
 }
