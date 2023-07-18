@@ -82,7 +82,7 @@
                                 <a href="#" class="flex flex-col bg-[#0066b8] text-[.8rem] font-semibold px-[2.5rem] py-[.35rem]">Download for Windows <small class="font-normal">Stable Build</small></a>
                                 <a class="bg-[#0066b8] py-[.93rem] px-[.8rem]"><img src="/images/chevronDown.svg" alt="" class="h-[1rem] w-[1rem]"></a>
                             </div>
-                            <div class="platform bg-[#25252b] w-full max-w-[60%] rounded-md h-[1.7rem] flex justify-center items-center relative">
+                            <div class="platform bg-[#25252b] w-full max-w-[17rem] rounded-md h-[1.7rem] flex justify-center items-center relative">
                                 <p class="text-[.71rem]"><a href="#" class="text-[#0098ff] hover:underline">Web</a>, <a href="#" class="text-[#0098ff] hover:underline">Insiders edition</a>, or <a href="#" class="text-[#0098ff] hover:underline">other platforms</a></p>
                             </div>
                             
@@ -98,30 +98,30 @@
     <section class="hero__icons">
         <div class="container">
             <div class="hero__icons__wrapper grid grid-cols-2 items-center">
-                <a href="#" class="hover:bg-gray-400 p-4">
+                <a href="#" class="hover:bg-gray-400 p-4 group">
                     <div class="icon__items flex flex-col items-center gap-2">
-                        <i class="fa-regular fa-lightbulb text-[2.5rem] text-[#444]"></i>
+                        <i class="fa-regular fa-lightbulb text-[2.5rem] text-[#444] group-hover:text-[#0071bc]"></i>
                         <p>IntelliSense</p>
                     </div>
                 </a>
 
-                <a href="#" class="hover:bg-gray-400 p-4">
-                    <div class="icon__items flex flex-col items-center gap-2">
-                        <i class="fa-solid fa-bug text-[2.5rem] text-[#444]"></i>
+                <a href="#" class="hover:bg-gray-400 p-4 group">
+                    <div class="icon__items flex flex-col items-center gap-2 ">
+                        <i class="fa-solid fa-bug text-[2.5rem] text-[#444] group-hover:text-green-400"></i>
                         <p>Run and Debug</p>
                     </div>
                 </a>
 
-                <a href="#" class="hover:bg-gray-400 p-4">
-                    <div class="icon__items flex flex-col items-center gap-2">
-                        <i class="fa-solid fa-code-branch text-[2.5rem] text-[#444]"></i>
+                <a href="#" class="hover:bg-gray-400 p-4 group">
+                    <div class="icon__items flex flex-col items-center gap-2 ">
+                        <i class="fa-solid fa-code-branch text-[2.5rem] text-[#444] group-hover:text-red-600"></i>
                         <p>Built-in Git</p>
                     </div>
                 </a>
 
-                <a href="#" class="hover:bg-gray-400 p-4">
-                    <div class="icon__items flex flex-col items-center gap-2">
-                        <i class="fa-solid fa-table-cells-large text-[2.5rem] text-[#444]"></i>
+                <a href="#" class="hover:bg-gray-400 p-4 group">
+                    <div class="icon__items flex flex-col items-center gap-2 ">
+                        <i class="fa-solid fa-table-cells-large text-[2.5rem] text-[#444] group-hover:text-black"></i>
                         <p>Extensions</p>
                     </div>
                 </a>
@@ -218,72 +218,224 @@
         </div>
     </section>
 
-    <section class="uses">
+    <section class="language bg-[#f5f5f5]">
         <div class="container">
-            <div class="uses__wrapper grid grid-cols-2 w-full text-center">
-                <h3>VS Code for</h3>
-                <div class="uses__items flex gap-1">
-                    <img src="/images/javascript.svg" class="" alt="">
-                    <p>JavaScript</p>
+            <div class="uses__wrapper text-center py-8 px-[1rem]">
+                <h3 class="mb-8">VS Code for</h3>
+                <div class="language__grid grid grid-cols-2 w-full text-center gap-4 py-2">
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/javascript.svg" class="" alt="">
+                        <p class="text-[.83rem]">JavaScript</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/python.svg" alt="">
+                        <p class="text-[.83rem]">Python</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/java.svg" alt="">
+                        <p class="text-[.83rem]">Java</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/markdown.svg" alt="">
+                        <p class="text-[.83rem]">Markdown</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/typescript.svg" alt="">
+                        <p class="text-[.83rem]">TypeScript</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/cpp.svg" alt="">
+                        <p class="text-[.83rem]">C/C++</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/json.svg" alt="">
+                        <p class="text-[.83rem]">JSON</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/powershell.svg" alt="">
+                        <p class="text-[.83rem]">Powershell</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/html.svg" alt="">
+                        <p class="text-[.83rem]">HTML/CSS</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/csharp.svg" alt="">
+                        <p class="text-[.83rem]">C#</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/php.svg" alt="">
+                        <p class="text-[.83rem]">PHP</p>
+                    </div>
+    
+                    <div class="uses__items flex gap-1">
+                        <img src="/images/yaml.svg" alt="">
+                        <p class="text-[.83rem]">YAML</p>
+                    </div>
+                </div>
+                <a href="" class="hover:underline text-[.83rem] text-[#005893]">and many more languages on the Marketplace...</a>
+                <a href="#" class="flex flex-col bg-[#0066b8] text-[1rem] font-bold text-white px-[2rem] py-[.9rem] max-w-[14rem] mx-auto my-8">Get Started Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="installer">
+        <div class="container">
+            <div class="installer__wrapper flex flex-col py-6">
+                <div class="installer__items text-center">
+                    <div class="installer__intro">
+                        <img src="/images/windows-logo.png" alt="" class="h-[5.5rem] w-[5.5rem] mx-auto my-4">
+                         <a href="#" class="flex flex-wrap justify-center gap-2 bg-[#0066b8] text-[.8rem] font-semibold max-w-[14rem] mx-auto text-white px-[2rem] py-[.4rem] items-center"> <img src="/images/download.svg" alt="" class="h-[1rem] w-[1rem] ">Windows <small class="font-normal text-[.55rem]">Windows 8, 10, 11</small></a>
+                    </div>
+
+                    <table class="mx-auto items-center">
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">User Installer</td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x86</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">System Installer</td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x86</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">.zip</td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x86</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">CLl</td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x86</a></td>
+                            <td><a href="#" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+                    </table>
                 </div>
 
-                <div class="uses__items flex gap-1">
-                    <img src="/images/python.svg" alt="">
-                    <p>Python</p>
+                <div class="installer__items text-center">
+                    <div class="installer__intro">
+                        <img src="/images/linux-logo.png" class="h-[6rem] w-[5.5rem] mx-auto my-4" alt="">
+                        <div class="button__container flex justify-center gap-1">
+                            <a href="#" class="flex flex-wrap justify-center gap-2 bg-[#0066b8] text-[.8rem] font-semibold max-w-[8rem] text-white py-[.4rem] items-center"> <img src="/images/download.svg" alt="" class="h-[1rem] w-[1rem] ">.deb <small class="font-normal text-[.55rem] px-5">Debian, Ubuntu</small></a>
+                            <a href="#" class="flex flex-wrap justify-center gap-2 bg-[#0066b8] text-[.8rem] font-semibold max-w-[8rem] text-white py-[.4rem] items-center"> <img src="/images/download.svg" alt="" class="h-[1rem] w-[1rem] ">.rpm <small class="font-normal text-[.55rem]">Red Hat, Fedora, SUSE</small></a>
+                        </div>
+                    </div>
+
+                    <table class="mx-auto">
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">.deb</td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm32</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">.rpm</td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm32</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">.tar.gz</td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm32</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">Snap</td>
+                            <td colspan="2"><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Snap Store</a></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">CLl</td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">x64</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm32</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Arm64</a></td>
+                        </tr>
+                    </table>
                 </div>
 
-                <div class="uses__items flex gap-1">
-                    <img src="/images/java.svg" alt="">
-                    <p>Java</p>
-                </div>
+                <div class="installer__items text-center">
+                    <div class="installer__intro">
+                        <img src="/images/apple-logo.svg" class="h-[5.5rem] w-[5.5rem] mx-auto my-4" alt="">
+                        <a href="#" class="flex flex-wrap justify-center gap-2 bg-[#0066b8] text-[.8rem] font-semibold max-w-[14rem] mx-auto text-white px-[2rem] py-[.4rem] items-center"> <img src="/images/download.svg" alt="" class="h-[1rem] w-[1rem] ">Mac <small class="font-normal text-[.55rem] px-6">macOS 10.11+</small></a>
+                    </div>
 
-                <div class="uses__items flex gap-1">
-                    <img src="/images/markdown.svg" alt="">
-                    <p>Markdown</p>
-                </div>
+                    <table class="mx-auto">
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">.zip</td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Intel chip</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Apple silicon</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Universal</a></td>
+                        </tr>
 
-                <div class="uses__items flex gap-1">
-                    <img src="/images/typescript.svg" alt="">
-                    <p>TypeScript</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/cpp.svg" alt="">
-                    <p>C/C++</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/json.svg" alt="">
-                    <p>JSON</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/powershell.svg" alt="">
-                    <p>Powershell</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/html.svg" alt="">
-                    <p>HTML/CSS</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/csharp.svg" alt="">
-                    <p>C#</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/php.svg" alt="">
-                    <p>PHP</p>
-                </div>
-
-                <div class="uses__items flex gap-1">
-                    <img src="/images/yaml.svg" alt="">
-                    <p>YAML</p>
+                        <tr>
+                            <td class="text-[.85rem] font-semibold px-1">CLl</td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Intel chip</a></td>
+                            <td><a href="" class="text-[.71rem] bg-[#0066b8] rounded-sm px-0.5 text-white">Apple silicon</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="terms bg-[#f5f5f5]">
+        <div class="container">
+            <div class="terms__wrapper flex flex-col  justify-between text-center lg:mx-[12rem] lg:flex-wrap">
+                <div class="flex flex-col">
+                    <div class="py-[3rem]">
+                        <h2 class="font-semibold text-[.9rem]">Want new features sooner?</h2>
+                        <p class="text-[.8rem]">Get the <a href="#" class="text-[#0066b8] hover:underline">Insiders build</a> instead.</p>
+                    </div>
+    
+                    <div class="py-[3rem]">
+                        <h2>Use <a href="#" class="text-[#0066b8] hover:underline text-[.9rem] font-semibold">vscode.dev</a> for quick edits online!</h2>
+                        <p class="text-[.8rem]">GitHub, Azure Repos, and local files.</p>
+                    </div>
+                </div>
+
+                <div class="max-w-[50%] mx-auto py-[3rem]">
+                    <h3 class="text-[.75rem] font-semibold">License and Privacy Terms</h3>
+                    <p class="text-[.6rem] leading-7">By downloading and using Visual Studio Code, you agree to the <a href="#" class="text-[#0066b8] hover:underline">license and terms</a> and <a href="#" class="text-[#0066b8] hover:underline">privacy statement.</a> VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <a href="#" class="text-[#0066b8] hover:underline">How to Disable Crash Reporting</a> to learn how to disable it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="left">
+                    <ul>
+                        <li class="hidden"><h4>Hello fron Seattle.</h4></li>
+                        <li>Follow @code</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>

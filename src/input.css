@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 .container {
-    @apply mx-auto max-w-[90rem] w-full;
+    @apply mx-auto max-w-[75rem] w-full;
 }
 
 .platform::before{
